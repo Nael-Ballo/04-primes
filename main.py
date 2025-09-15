@@ -6,8 +6,8 @@ from math import sqrt
 def isprime(p):
     for b in range(2,p):
         if p%b == 0:
-            return True
-    return False
+            return False
+    return True
 pass
 
 
