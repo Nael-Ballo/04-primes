@@ -4,10 +4,12 @@ from math import sqrt
 
 
 def isprime(p):
+    for b in range(2,p):
+        if p%b == 0:
+            return True
+    return False
+pass
 
-    # votre code ici
-
-    pass
 
 #### Fonction principale
 
